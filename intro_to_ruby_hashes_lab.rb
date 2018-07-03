@@ -3,8 +3,11 @@ def new_hash
 end
 
 def actor
- new_hash[:name] = "Dwayne The Rock Johnson"
+  rock = new_hash
+  rock[:name] = "Dwayne The Rock Johnson"
+  rock
 end
+
 
 def monopoly
 	monopoly = {}
